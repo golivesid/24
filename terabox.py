@@ -123,7 +123,7 @@ def send_welcome(message):
     inline_keyboard = telebot.types.InlineKeyboardMarkup()
     inline_keyboard.row(
         telebot.types.InlineKeyboardButton("〇 𝐉𝐨𝐢𝐧𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 〇", url=f"https://t.me/terao2"),
-        telebot.types.InlineKeyboardButton("🫧 𝐎𝐡 𝐁𝐡𝐚𝐢 🫧", url="tg://user?id=6743860398")
+        telebot.types.InlineKeyboardButton("🫧 𝐎𝐡 𝐁𝐡𝐚𝐢 🫧", url="tg://user?id=1352497419")
     )
 
     welcome_message = (
