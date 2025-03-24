@@ -58,7 +58,7 @@ def format_progress_bar(filename, percentage, done, total_size, status, speed, u
 
 # Function to download video
 def download_video(url, chat_id, message_id, user_mention, user_id):
-    response = requests.get(f'https://terabox-test-api.wd-zone.workers.dev/?url={url}')
+    response = requests.get(f'https://terabox-test-api.wd-zone.workers.dev/terabox?url={url}')
     data = response.json()
 
     if not data['response'] or len(data['response']) == 0:
